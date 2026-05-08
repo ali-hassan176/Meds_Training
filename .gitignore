@@ -1,0 +1,6 @@
+build/
+*.vcd
+*.log
+*.o
+*.out
+.vscode/
