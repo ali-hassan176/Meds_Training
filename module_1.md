@@ -52,7 +52,7 @@ ssh -T git@github.com
 #output
 Hi ali-hassan176! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-![SSH success](./day1/images/ssh.png)
+![SSH success](./images/ssh.png)
 #### Question no 5:
 ```bash
 find /usr/include . -name '*.c' -type f | xargs wc -l | sort -nr | head -n 5
