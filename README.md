@@ -4,7 +4,7 @@ Student: Ali Hassan
 ID: 2024EE176
 Updated learning progress
 
-Shell-based analyzer for RISC-V simulation logs with concise summary reports.
+Shell-based analyzer to parse RISC-V simulation logs, summarize results, and generate reports.
 This project demonstrates Linux command usage, shell scripting, Git workflows, and Makefiles.
 
 ## Requirements
