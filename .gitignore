@@ -1,6 +1,14 @@
 build/
+output/
 *.vcd
 *.log
 *.o
 *.out
+*.log.report
+*.csv
+*.html
+.DS_Store
+Thumbs.db
 .vscode/
+*.swp
+*.tmp
