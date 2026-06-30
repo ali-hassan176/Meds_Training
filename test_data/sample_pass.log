@@ -1,0 +1,7 @@
+[2026-05-02 09:10:01] TEST START: rv32i-xor
+[2026-05-02 09:10:02] TEST PASS: rv32i-xor (0.41s)
+[2026-05-02 09:10:02] TEST START: rv32i-and
+[2026-05-02 09:10:03] TEST PASS: rv32i-and (0.38s)
+[2026-05-02 09:10:03] TEST START: rv32i-ori
+[2026-05-02 09:10:04] TEST PASS: rv32i-ori (0.44s)
+[2026-05-02 09:10:04] SUMMARY: 3 tests, 3 passed, 0 failed, 0 skipped
