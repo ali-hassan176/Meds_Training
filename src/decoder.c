@@ -138,7 +138,7 @@ static int32_t imm_j(uint32_t raw)
    Each function handles one instruction format, fills in the
    mnemonic field of 'out', and returns SUCCESS or FAILURE.
    ═══════════════════════════════════════════════════════════════ */
-
+/* R-type decoder — handles all register-to-register operations */
 /* decode_r_type — handles ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU */
 static int decode_r_type(DecodedInstr *out)
 {
