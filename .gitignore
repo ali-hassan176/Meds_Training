@@ -1,0 +1,18 @@
+# Build output directories
+build/
+bin/
+
+# Compiled object files
+*.o
+*.d
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Valgrind output files
+vgcore.*
