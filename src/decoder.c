@@ -303,6 +303,7 @@ static int decode_i_arith(DecodedInstr *out)
 }
 
 /* decode_load — handles LB, LH, LW, LBU, LHU */
+/* Load decoder — LB/LH/LW/LBU/LHU with sign-extended 12-bit offset */
 static int decode_load(DecodedInstr *out)
 {
     out->format = FMT_I;              /* Loads use I-type encoding */
