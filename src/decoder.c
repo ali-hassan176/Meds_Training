@@ -387,6 +387,7 @@ static int decode_store(DecodedInstr *out)
 }
 
 /* decode_branch — handles BEQ, BNE, BLT, BGE, BLTU, BGEU */
+/* Branch decoder — BEQ/BNE/BLT/BGE/BLTU/BGEU with B-type scrambled immediate */
 static int decode_branch(DecodedInstr *out)
 {
     out->format = FMT_B;              /* B-type encoding */
