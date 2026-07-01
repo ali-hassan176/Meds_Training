@@ -350,6 +350,7 @@ static int decode_load(DecodedInstr *out)
 }
 
 /* decode_store — handles SB, SH, SW */
+/* Store decoder — SB/SH/SW with S-type split immediate */
 static int decode_store(DecodedInstr *out)
 {
     out->format = FMT_S;              /* S-type encoding */
