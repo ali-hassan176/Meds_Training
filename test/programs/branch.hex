@@ -1,0 +1,12 @@
+# Branch test cases — BEQ, BNE, BLT, BGE, BLTU, BGEU
+# Also includes SW/LW to set up registers for branches
+
+00500113
+00A00193
+003100B3
+00108063
+FE209CE3
+0020C263
+00314263
+00316063
+00317063

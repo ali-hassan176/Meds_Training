@@ -1,0 +1,11 @@
+# Mixed instruction program — covers R, I, S, B, J types
+# This file matches the expected output shown in the assignment spec
+
+00500113
+00A00193
+003100B3
+40310133
+0020A023
+0000A103
+FE209CE3
+004000EF

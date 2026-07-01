@@ -1,0 +1,14 @@
+# R-type test cases — all R-format instructions
+# Format: one 32-bit hex word per line (no 0x prefix)
+# Decoded as: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
+
+003100B3
+40310133
+00311033
+003120B3
+003130B3
+00314033
+003150B3
+403150B3
+003160B3
+003170B3
